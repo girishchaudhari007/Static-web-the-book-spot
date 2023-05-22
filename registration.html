@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: rgba(0, 0, 0, 0.7) url(login.jpg);
+            background-blend-mode: darken;
+        }
+        .con{
+          /*  border: 3px solid;*/
+            width: 500px;
+            height: 400px;
+            padding:30px;
+            text-align: center;
+            margin: 200px;
+            margin-left: 550px;
+            background-color: #096679;background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(64,161,181,1) 35%, rgba(0,212,255,1) 100%); border-radius: 10px;
+            
+        }
+        .conchild{
+            margin-top: 30px;
+        }
+        .con input{
+            border: 2px solid green;
+            margin: 5px;
+            max-width: 500px;
+            width: 300px;
+            padding: 4px;
+            border-radius: 10px;
+            
+        }
+        button{
+            margin-top: 10px;
+            padding: 3px 10px;
+            border: 2px solid;
+            border-radius: 7px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <h1 style="padding-top: 5px;">Registration Form </h1>
+        <div class="conchild">
+
+        <input type="email" name="email" id="name4" class="int" placeholder="Enter Your email Here"><br>
+        <input type="password" name="password" id="email1" class="int" placeholder="Enter Your password"><br>
+        <input type="password" name="password" id="num" class="int" placeholder="Confirm Your password"><br>
+        <input type="number" name="phone" id="password" class="int" placeholder="phone number"><br>
+        <input type="text" name="text" id="passwordc" class="int" placeholder="Enter Your Address"><br>
+        <h4 style="display: inline;"> if you have already account then</h4> <a href="login.html" style="text-decoration: none; color:blue; font-weight:bold;">Login Here</a> <br><br>
+        <button onclick="registration()">submit</button>
+
+        </div>
+</div>
+<script src="registrationformlogic.js"></script>
+</body>
+</html>

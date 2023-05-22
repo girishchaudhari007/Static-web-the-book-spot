@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+        body{
+            background-color:#F0FFFF;
+            -moz-box-align: center;
+
+        }
+        .main{
+            justify-content: center;
+            height:350px;
+            width:300px;
+            border:2px solid grey;
+            margin-top:40px;
+            margin-left:640px;
+            border-radius:4px;
+        }
+        .header{
+            box-sizing:border-box;
+            height:50px;
+            width:300px;
+            background-color: #2F4F4F;
+            padding:0px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        p{
+            margin:0;
+            padding-top:12px;
+            font-size:15px;
+            font-family: serif;
+            font-weight:bold;
+            color:white;
+
+        }
+        .between{
+            box-sizing: border-box;
+            height: 270px;
+            width:300px;
+            background-color: #FFEBCD;
+        }
+        .bottom{
+            box-sizing: border-box;
+            font-size: 8px;
+            text-align: center;
+            padding-top: 8px;
+            background-color: #F08080;
+            height:30px;
+            width:300px;
+            margin-right: 20px;
+        }
+        form{
+            margin:0px;
+            box-sizing: border-box;
+            padding-top: 90px;
+            padding-left: 50px;
+
+        }
+        input[type=submit]{
+            background-color: #4CAF50;
+            color:white;
+            border:1px solid green;
+            cursor:pointer;
+            margin-left:140px;
+        }
+        input[type=text], select, textarea{
+            background-color:skyblue;
+            border:1px solid black;
+            border-radius:2px;
+            height:25px;
+        }
+        input[type=number], select, textarea{
+            background-color:skyblue;
+            border:1px solid black;
+            border-radius:2px;
+            height:25px;
+        }
+
+        i{
+            font-size: 5px;
+        }
+        
+        b{
+            margin-left:650px;
+            color: red;
+
+        }
+        h3{
+            color: blue;
+            text-align:center;
+        }
+        
+        
+
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div class="main">
+            <div class="header">
+                <p>PAYMENT DETAILS</p>
+            </div>
+            <div class="between">
+                <form>
+                    
+                    <input type="number" placeholder="Card Number">
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Card Holder Name">
+                    <br>
+                    <br>
+                    <!-- <input type="submit" > -->
+                    <button style="margin-left: 30px; padding: 5px 10px; background-color: green;" class="btn2" value="continue" onclick="alert('Your payment successfully done')"><a href="last.html">Continue</a> </button>
+                    <br>
+                    <img src="">
+                    
+                </form>
+                <div class="bottom">
+                    <strong>Payment should be done under card you specified !</strong>
+                </div>
+            </div>
+        </div>
+        <br>
+        <b>Expire date and cvv not reguired</b>
+      
+    </body>
+</html>

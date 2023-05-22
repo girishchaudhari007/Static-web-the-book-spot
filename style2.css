@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: 2px solid;
+    padding: 3px 13px;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 15px;
+    transition: all 1s ease-in-out;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.button a:hover{
+    background-color: black;
+    padding: 4px 15px;
+    border-radius: 9px;
+    color: white;
+}
+.sec2{
+    /* border: 3px solid red; */
+    /* margin: 12px; */
+    background-image: linear-gradient(to right,#4c4d4f,#1f2021);
+
+}
+.con2{
+    /* border: 2px solid green; */
+    /* margin: 12px; */
+    padding: 25px 2px;
+    
+
+}
+.childofcon2{
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    padding: 20px;
+    /* margin: 12px; */
+
+    padding: 12px;
+    margin-left: 19px;
+}
+.product{
+    color: black;
+    font-weight: bold;
+    /* border: 3px solid; */
+    border-radius: 10px;
+    /* display: inline-block; */
+    height: 269px;
+    width: 193px;
+    margin: 2px;
+    align-items: center;
+    /* text-align: center; */
+    /* display: flex; */
+    margin-left: 51px;
+    margin-left: 52px;
+    text-align: center;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    
+
+}
+.product:hover{
+
+   box-shadow:10px 0px 10px 0px #5c90a2; 
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(161,161,198,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+.product img{
+    height: 30px;
+    /* width: 10px; */
+}
+.oneimg{
+    text-align: center;
+    margin-top: 7px;
+}
+.oneimg img{
+    height: 50px;
+    width: 50px;
+}
+
+button:hover{
+    /* background-color: gray; */
+    background-color: black;
+    color:white;
+
+}

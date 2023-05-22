@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Books Spot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<hr>
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1><span>The -</span>Books Spot</h1>
+                </div>
+              
+                <div class="navlist">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#section4">Category</a></li>
+                    <li><a href="jay.html">About</a></li>
+                    <li><a href="#Contactform">Contact us</a></li>
+                </ul>
+            </div>
+            <button id="btn2" onclick="search1()">Search</button>
+            <div style="height: 30px; width:30px;">
+                <a href="profile.html">
+                    <img  style="height: 30px; width:30px;height: 50px;
+                    margin-left: 35px;
+                    width: 51px;
+                    border-radius: 31px;
+                    margin: 6px;
+                    margin-left: 32px;"src="Unknown-Female.jpg" alt="account">
+                    </a>
+                    <h3 style="color: white;position: absolute;margin: 47px;margin-left: 117px;margin-top: -3pc;">Welcome</h3>
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="search">
+        <input type="text" name="search" id="search" placeholder="Search Here">
+        <button class="btn">Search</button>
+    </div> -->
+    <section class="firstsection">
+        
+        <input type="text" name="text" id="text" placeholder="Search Here">
+       
+        <div class="con1">
+           
+           
+            <div class="childcon1">
+                <h1 style="color: white; font-weight: bolder; margin: 20px; ">Get Your Favorite Book Here</h1>
+                <p style="color: white; margin:20px;">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” </p>
+            </div>
+            <div class="childcon2">
+                <img src="Inside-the-machine-1024x576.webp" alt="background">
+            </div>
+         
+            <!-- <button class="btn1">Get Started</button> -->
+        </div>
+
+    </section>
+    <section class="con4">
+        <div class="childofcon4">
+            <div  class="heading">
+                <h1>UPTO 50% OFF</h1>
+                <h3>Buy 2 Get 1 Free</h3>
+            </div>
+            <img src="forbeginercpp-removebg-preview.png" alt="">
+
+        </div>
+        
+    </section>
+    <div style="background-color: rgb(226, 91, 91);">
+        <marquee behavior="alternate" direction="right"><font style="margin-left: 100px; text-align: center; color: black; font-weight: bold;"> Today's Best Deal ,</font>
+           <h1> Buy One Get One Free</h1>
+        </marquee>
+    </div>
+
+    <section class="sec2">
+        <div class="con2">
+            <h1 style="font-weight: bolder; text-align: center; text-decoration: underline; font: size 30px; ; margin-bottom: 20px; color:white;">Recommendation</h1>
+
+            <div class="childofcon2">
+                <div class="product">
+                    <div class="oneimg"><img src="cbook.jpeg" alt=""></div>
+                    <h1>C</h1>
+                    <p style="font-size: 12px;">C is a general-purpose, procedural computer programming language </p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/c_buy.html">Buy</a></button>
+                </div>
+                <div class="product">
+                    <div class="oneimg"><img src="pythonbook.jpg" alt=""></div>
+                    <h1>Python</h1>
+                    <p style="font-size: 12px;">Python is a high-level, general-purpose programming language</p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/python.html">Buy</a></button>
+                </div>
+                <div class="product">
+                    <div class="oneimg"><img src="cppbook.jpg" alt=""></div>
+                    <h1>C++</h1>
+                    <p style="font-size: 12px;">C++ is a cross-platform language that can be used to create high-performance applications</p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/cpp.html">Buy</a></button>
+                </div>
+                <div class="product">
+                    <div class="oneimg"><img src="javabook.jpg" alt=""></div>
+                    <h1>Java</h1>
+                    <p style="font-size: 12px;">Java can be used to build applications for a wide range of platforms.</p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/java.html">Buy</a></button>
+                </div>
+                <div class="product">
+                    <div class="oneimg"><img src="phpbook.jpg" alt=""></div>
+                    <h1>Php</h1>
+                    <p style="font-size: 12px;">PHP is a recursive acronym for "PHP: Hypertext Preprocessor"</p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/php.html">Buy</a></button>
+                </div>
+                <div class="product">
+                    <div class="oneimg"><img src="csharp.jpg" alt=""></div>
+                    <h1>C#</h1>
+                    <p style="font-size: 12px;">create a number of different programs and applications: mobile apps, software and games</p>
+                    <img src="star1-removebg-preview.png" alt=""><br>
+                    <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                    <button onclick="buy()" class="butt"><a href="./buy product/c#.html">Buy</a></button>
+                </div>
+            
+             </div>
+             
+
+      
+        <div class="childofcon2">
+            <div class="product">
+                <div class="oneimg"><img src="asp.jpg" alt=""></div>
+                <h1>Asp.Net</h1>
+                <p style="font-size: 12px;">ASP.NET is an open-source, server-side web-application framework designed for web development</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Asp.net.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="django.jpg" alt=""></div>
+                <h1>Django</h1>
+                <p style="font-size: 12px;">Django is a Python-based free and open-source web framework </p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Django.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="ai.png" alt=""></div>
+                <h1>A.I</h1>
+                <p style="font-size: 12px;">Artificial intelligence is intelligence demonstrated by machines, </p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/AI.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="ml2.jpg" alt=""></div>
+                <h1>M.L</h1>
+                <p style="font-size: 12px;">Machine learning is used in internet search engines, email filters to sort out spam, websites</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/ML.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="r.jpg" alt=""></div>
+                <h1>R language</h1>
+                <p style="font-size: 12px;">R is a programming language for statistical computing and graphics</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Rlanguage.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="javascript1.jpg" alt=""></div>
+                <h1>Javascript</h1>
+                <p style="font-size: 12px;">JavaScript (often shortened to JS) is a lightweight, interpreted, </p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/javascript.html">Buy</a></button>
+            </div>
+        </div>
+        <div class="childofcon2">
+            <div class="product">
+                <div class="oneimg"><img src="asp.jpg" alt=""></div>
+                <h1>Kotlin</h1>
+                <p style="font-size: 12px;">Kotlin is a cross-platform, statically typed, general-purpose programming language</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/kotlin.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="django.jpg" alt=""></div>
+                <h1>Go</h1>
+                <p style="font-size: 12px;">Go is a statically typed, compiled programming language</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Go.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="ai.png" alt=""></div>
+                <h1>Scala</h1>
+                <p style="font-size: 12px;">Scala is a strong statically typed general-purpose programming language</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/scala.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="ml2.jpg" alt=""></div>
+                <h1>Swift</h1>
+                <p style="font-size: 12px;">Swift is a general-purpose, multi-paradigm, compiled programming language </p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/swipt.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="r.jpg" alt=""></div>
+                <h1>Rust</h1>
+                <p style="font-size: 12px;">Rust is a multi-paradigm, general-purpose programming language</p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt" ><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Rust.html">Buy</a></button>
+            </div>
+            <div class="product">
+                <div class="oneimg"><img src="javascript1.jpg" alt=""></div>
+                <h1>Ruby</h1>
+                <p style="font-size: 12px;">Ruby is an interpreted, high-level, general-purpose programming language </p>
+                <img src="star1-removebg-preview.png" alt=""><br>
+                <button onclick="cart()" class="butt"><a href="#">Cart</a></button>
+                <button onclick="buy()" class="butt"><a href="./buy product/Rubby.html">Buy
+    </section>
+    <section class="sec3">
+        <h1 class="hellow" style="color: white; font-weight:bold;">Category</h1>
+        <div class="con3">
+            <div class="childofcon3" id="section4">
+                <div class="categiory" style=" background: url(machine\ learning.jpg);"><a href="machine learning.html" target="_blank"> Machine Learning </a></div>
+                <div class="categiory" style=" background: url(ai2.jpg);"><a href="Artificial Intelligence.html" target="_blank"> Artificial Intelligience </a></div>
+                <div class="categiory" style="  background: url(data.jpg);"><a href="data science.html" target="_blank"> Data Science </a></div>
+            </div>
+            <div class="childofcon3">
+                <div class="categiory" style="  background: url(Blockchain.jpg);"><a href="blockchain.html" target="_blank"> Blockchain</a>.</div>
+                <div class="categiory" style="  background: url(cm.jpg);"><a href="quatum computing.html" target="_blank"> Quantum Computing </a></div>
+                <div class="categiory" style="  background: url(robot3.jpg)"><a href="robotic.html" target="_blank"> Robotic </a></div>
+            </div>
+        </div>
+    </section>
+    <section style="    margin-top: 22px; width: 1560px; ">
+   
+        <div id="Contactform">
+            <h1 style="color: white ; text-decoration:underline; font-weight:bold; margin-bottom:10px;">Contact Us</h1>
+            <input type="text" name="text" id="email" class="int" placeholder="Enter First Name"><br>
+            <input type="text" name="text" id="name" class="int" placeholder="Enter Last Name"><br>
+            <input type="number" name="phone" id="phone" class="int" placeholder="phone number"><br>
+            <input type="text" name="phone" id="phone" class="int" placeholder="Enter Your Address"><br>
+            <input type="text" name="phone" id="phone" class="int" placeholder="Enter your email"><br>
+            <input type="radio" name="gender" value="female"  ><h4 style="color:white; display:inline;">male</h4>
+            <input type="radio" name="gender" value="female"  style="color:white;"><h4 style="color:white; display:inline;">Female</h4>
+            <input type="radio" name="gender" value="other"  style="color:white;"> <h4 style="color:white; display:inline;">Other</h4><br>
+
+            <button class="submit" onclick="submitform()" style="padding:10px 35px; background-color:green;">Submit</a></button>
+    
+        </div>
+</section>
+<footer>
+    <div class="foot">
+        <div class="footleft">
+            <h1 class="h"  style="border: 3px solid;">E-Commerce website</h1><br>
+           
+            <div class="add"><h4><b>Address</b>:- At post shirpur tal shirpur,<br>
+                &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp  dist dhule,<br>  
+                &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp  Near Karvan Naka.
+            </h4>  <br>
+            <h4>
+                Phone:- +919527081664 
+            </h4><br>
+            <h4>
+                Email:- ecommerceweb223@outlook.com
+            </h4>
+        </div>
+        </div>
+        <div class="footright">
+            <h1 class="h" style="border: 3px solid;">Information</h1>
+            <div class="add1">
+            <h4><a href="#" class="a1"> Price Drop</a></h4> <br>
+            <h4><a href="#" class="a1">New product</a></h4> <br>
+            <h4><a href="#" class="a1">Best Sales</a></h4> <br>
+            <h4><a href="#" class="a1">Contact us</a></h4> <br>
+            </div>
+            <div class="add1"> 
+                <input type="text" name="text" id="inp" placeholder="Enter Your Email Address Here..."><br>
+            <button id="btn" style="background-color: green; border:none; padding:6px 30px; margin-left: 35px;">subscribed us</button>
+        </div>
+        </div>
+        <div class="right1">
+            <a href="#" class="imgsocial"><img src="5296500_fb_social media_facebook_facebook logo_social network_icon.png" alt="logo1" id="imgg"></a>
+            <a href="#" class="imgsocial"><img src="5296514_bird_tweet_twitter_twitter logo_icon.png" alt="logo2" id="imgg"></a>
+            <a href="https://www.youtube.com/" class="imgsocial"><img src="5296521_play_video_vlog_youtube_youtube logo_icon.png" alt="logo3" id="imgg"></a>
+            <a href="#" class="imgsocial"><img src="7086697_messenger_facebook messenger_messenger logo_icon.png" alt="logo2" id="imgg"></a>
+            <a href="#" class="imgsocial"><img src="5296765_camera_instagram_instagram logo_icon.png" alt="logo3" id="imgg"></a>
+            <h1 class="h"  style="border: 3px solid; text-align:center; background-color:antiquewhite; color:black;">Stay Connected With Us</h1>
+        </div>
+    </div>
+    <div class="copyrights">
+             
+        <h5> Copyrights @ 2022 ecommerce. All Right Reserved. <br>Design By 
+        Our team </h5>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
